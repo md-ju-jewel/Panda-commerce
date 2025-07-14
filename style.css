@@ -193,39 +193,40 @@ nav a {
   padding: 13px 30px 13px 0px;
 }
 /* cart section styles */
-.cart-sec{
-  width: auto;
+.cart-sec {
+  width: 1500px;
   height: 1486px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   background-size: cover;
-  margin: 60px 0 0 0;
+  margin: 0px auto;
   padding: 0;
+  margin-top: 60px;
 }
-.Shoes-section-title{
+.Shoes-section-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.Shoes-section-title h3{
+.Shoes-section-title h3 {
   font-size: 38px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-left: 35px;
 }
-.Shoes-section-title a{
+.Shoes-section-title a {
   font-size: 20px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   margin-right: 42px;
   text-decoration: none;
-  color: #FF9D00;
+  color: #ff9d00;
 }
-.Shoes-3-carts{
+.Shoes-3-carts {
   display: flex;
   gap: 63px;
   margin-left: 35px;
 }
-.shoes-cart{
+.shoes-cart {
   width: 360px;
   height: 496px;
   background: white;
@@ -233,36 +234,36 @@ nav a {
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.shoes-cart img{
+.shoes-cart img {
   width: 335px;
   height: 210px;
 }
-.shoes-cart span{
+.shoes-cart span {
   display: block;
   font-size: 24px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
-.shoes-cart h2{
+.shoes-cart h2 {
   font-size: 24px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-top: 0px;
 }
-.shoes-cart p{
+.shoes-cart p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   padding: 20px;
 }
-.shoes-cart .btn{
+.shoes-cart .btn {
   background: black;
 }
-.bags-cart img{
+.bags-cart img {
   width: 290px;
   height: 290px;
 }
-.bags-cart{
+.bags-cart {
   width: 360px;
   height: 600px;
   background: white;
@@ -270,6 +271,58 @@ nav a {
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.bags-cart h2{
+.bags-cart h2 {
   margin-top: 20px;
+}
+/* footer styles */
+.footer {
+  width: 1212px;
+  height: 455px;
+  margin: 71px auto;
+  background: #fff2f1;
+  text-align: center;
+  position: relative;
+}
+.footer h2 {
+  padding-top: 146px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+}
+.footer p {
+  color: rgb(112, 112, 112);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer input {
+  width: 683px;
+  height: 73px;
+  border: none;
+  display: block;
+  margin: auto;
+  padding-left: 34px ;
+  font-size: 24px; 
+}
+.footer input:focus {
+  outline: none;     
+}
+.footer input::placeholder {
+  color: rgb(204, 204, 204);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+}
+.footer .btn{
+  text-align: center;
+  font-family: Poppins;
+  position: absolute;
+  top: 240px;
+  right: 240px;
+  border-radius: 0px 6px 6px 0px;
+  padding: 21px 48px 17px 48px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
 }
