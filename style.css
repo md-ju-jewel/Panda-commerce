@@ -29,6 +29,7 @@ nav input::placeholder {
   font-size: 16px;
   font-style: italic;
 }
+
 .search-parent {
   position: relative;
   color: #bababa;
@@ -41,6 +42,10 @@ nav input {
   background: #f1f1f1;
   padding: 0 0 0 20px;
   font-size: 20px;
+  border: none;
+}
+nav input:focus {
+  outline: none;
 }
 .search-parent i {
   position: absolute;
@@ -302,11 +307,11 @@ nav a {
   border: none;
   display: block;
   margin: auto;
-  padding-left: 34px ;
-  font-size: 24px; 
+  padding-left: 34px;
+  font-size: 24px;
 }
 .footer input:focus {
-  outline: none;     
+  outline: none;
 }
 .footer input::placeholder {
   color: rgb(204, 204, 204);
@@ -314,7 +319,7 @@ nav a {
   font-size: 24px;
   font-weight: 400;
 }
-.footer .btn{
+.footer .btn {
   text-align: center;
   font-family: Poppins;
   position: absolute;
